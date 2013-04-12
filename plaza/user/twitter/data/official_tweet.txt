@@ -1,0 +1,49 @@
+|1|大戸屋　ゲートシティ大崎店|ootyagcoosaki|http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=39|レストラン
+
+insert into accounts values('' ,1, 'マクドナルド', 'Love_McD', 'http://www.mcdonalds.co.jp/', 'レストラン');
+insert into accounts values();
+/* レストラン */
+/* ショップ */
+/* サービス */
+
+/* レストラン */
+insert into accounts values('',1,'銀座ライオン','GINZALION_PR', 'http://ginzalion.jp', 'レストラン');
+insert into accounts values('',1,'スターバックス コーヒー','Starbucks_J','http://www.starbucks.co.jp/','レストラン');
+insert into accounts values('',1,'シロクマカレー', 'LoveShirokuma','http://www.shirokuma-curry.jp/', 'レストラン');
+insert into accounts values('',1,'バタゴニア', 'PatagoniaJP','http://www.patagonia.com/japan/', 'レストラン');  //UPDATEあり
+insert into accounts values('',1,'てもみん','temomincom','http://www.global-sports.co.jp/','レストラン');  //UPDATEあり
+/* ショップ */
+insert into accounts values('',1,'ローソン','akiko_lawson','http://www.lawson.co.jp/socialmedia/','ショップ');
+insert into accounts values('',1,'トモズ','tomods_hts','http://www.tomods.jp/','ショップ');
+insert into accounts values('',1,'ドコモ','docomo','http://www.nttdocomo.co.jp/','ショップ');
+insert into accounts values('',1,'第一園芸','DaiichiEngei','http://www.daiichi-engei.co.jp','ショップ');
+/* サービス */
+insert into accounts values('',1,'三菱UFJ銀行','bk_mufg1880','三菱UFJ銀行','サービス');
+insert into accounts values('',1,'りそな銀行','resona_pr','http://www.resona-gr.co.jp/','サービス');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

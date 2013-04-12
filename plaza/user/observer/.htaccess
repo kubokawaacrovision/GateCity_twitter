@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Passwd Lock"
+AuthUserFile /home/xsu0154/data/pwd/tmp.0.MLSleU
+require valid-user

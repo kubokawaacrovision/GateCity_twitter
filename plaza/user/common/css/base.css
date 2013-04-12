@@ -1,0 +1,215 @@
+@charset "UTF-8";
+/*******************リンクテキスト設定*********************************/
+a:link {
+	color: #323232;
+	text-decoration:none;
+	}
+a:visited {
+	color: #323232;
+	text-decoration:none;
+	}
+a:hover {
+	color: #323232;
+	text-decoration:underline;
+}
+a:focus {outline:none;}
+
+/*クリック時の枠を消す場合　aにクラスを追加*/
+.nonborder { border:none; outline:none; }
+
+/*******************テキスト共通設定（段落、リンクアロー、注釈用スモールフォント）*********************************/
+#right_area p{
+	margin-bottom:1em;
+	font-size:93%;
+	line-height:146.5%;
+}
+#right_area dl{
+	margin-bottom:1em;
+}
+
+#right_area dt,#right_area dd{
+	font-size:93%;
+	line-height:146.5%;
+}
+#right_area dd{
+	margin-left:20px;
+}
+
+
+#right_area span.small_txt{
+	font-size:77%;
+	line-height:138.5%;
+}
+
+.indent{
+display:block;
+text-indent:1em;
+}
+
+span.orange{
+color:#993300;
+}
+
+/*******************コンテンツレイアウト共通設定*********************************/
+
+#wrapper{
+width:100%;
+min-height:600px;
+background-image:url(/plaza/common/img/wrapperbg.gif);
+background-position:left top;
+background-repeat:repeat-x;
+position:relative;
+font-size:100%;
+line-height:131%;
+}
+
+#header{
+width:950px;
+height:100px;
+margin:0 auto;
+position:relative;
+}
+
+#header h1 a{
+display:block;
+width:480px;
+height:65px;
+text-indent:-9999px;
+text-decoration:none;
+background-image:url(/plaza/common/img/plazalogo.gif);
+position:absolute;
+top:0;
+left:0;
+}
+
+/*TWEET LINE TICKER*/
+#tweetline {
+width:100%;
+height:26px;
+background:url(/plaza/common/img/tweetlinebg.gif);
+}
+#tweet_ticker {
+width:950PX;
+margin:0 auto;
+}
+
+#bread{
+width:100%;
+height:20px;
+background:#E6E6E6;
+margin-bottom:49px;
+}
+#bread_navi{
+width:950px;
+margin:0 auto;
+}
+#bread_navi ul{
+}
+#bread_navi ul li{
+float:left;
+font-size:77%;
+color: #787878;
+line-height:20px;
+background:url(/plaza/common/img/bread_arrow.gif) no-repeat;
+padding-left:23px;
+}
+#bread_navi ul li.breadhome{
+background:none;
+padding-left:0;
+}
+
+
+#bread_navi a:link {
+	color: #323232;
+	text-decoration:none;
+	}
+#bread_navi a:visited {
+	color: #323232;
+	text-decoration:none;
+	}
+#bread_navi a:hover {
+	color: #787878;
+	text-decoration:underline;
+}
+
+#contents{
+width:950px;
+margin:0 auto;
+margin-top:38px;
+}
+
+
+
+/* フッター部分 */
+
+#footer{
+width:100%;
+height:214px;
+background:url(/plaza/common/img/footerbg.jpg) repeat-x;
+margin:0;
+}
+
+#footernavi {
+width:950px;
+height:214px;
+background:url(/plaza/common/img/footernavibg.jpg) no-repeat;
+margin:0 auto;
+position:relative;
+}
+
+#ohsaki_link {
+width:190px;
+height:47px;
+position:absolute;
+left:0;
+bottom:44px;
+}
+
+#copyright{
+width:300px;
+margin:0;
+height:47px;
+font-size:77%;
+line-height:138.5%;
+position:absolute;
+left:203px;
+bottom:44px;
+color:#ffffff;
+}
+
+#copyright .copy{
+font-size:93%;
+}
+
+#footer_link {
+width:438px;
+height:47px;
+position:absolute;
+right:9px;
+bottom:44px;
+
+
+}
+
+#footer_link li{
+float:right;
+padding-left:14px;
+margin-left:2px;
+background:url(/plaza/common/img/footer_link_arrow.gif) 0 0% no-repeat;
+font-size:85%;
+line-height:13px;
+}
+#footer_link li.lastchild{
+background:none;
+}
+#footer_link li a{
+color:#ffffff;
+}
+
+
+
+.clearfix {width:100%;}
+.clearfix:after{
+    content: ""; 
+    display: block; 
+    clear: both;}

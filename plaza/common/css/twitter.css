@@ -1,0 +1,261 @@
+@charset "UTF-8";
+/************** サブナビゲーション **************/
+
+body#twitter {
+background:url(../../twitter/img/wrapperbg.gif) repeat-x;
+background-color:#5a8c00;
+padding-bottom:20px;
+}
+
+#wrapper{
+width:100%;
+min-height:600px;
+/*background-image:url(/plaza/twitter/img/wrapperbg.gif);*/
+background-position:left top;
+background-repeat:repeat-x;
+background-color:#5a8c00;
+position:relative;
+font-size:100%;
+line-height:131%;
+}
+
+#contents{
+width:950px;
+margin:0 auto;
+}
+
+/*************** 左エリア *****************/
+#left_area{
+width:715px;
+float:left;
+background:url(../twitter/img/twitter_title.gif) 0 0 no-repeat;
+margin:20px 0;
+}
+
+#left_contents {
+width:715px;
+margin:40px auto 0;
+background:#ffffff;
+padding:10px 0;
+}
+
+/*************** 右エリア *****************/
+#right_area{
+width:220px;
+float:right;
+margin:60px 0 25px;
+background:none;
+}
+
+body#twitter div#right_area ul {
+	margin:0;
+	padding:0;
+}
+
+body#twitter div#right_area li {
+	width:220px;
+	height:53px;
+	line-height:0;
+	font-size:1%;
+	overflow:hiden;
+	text-indent:-9999px;
+}
+
+body#twitter div#right_area li a {
+	outline:none;
+	display:block;
+	width:220px;
+	height:53px;
+	line-height:normal;
+}
+
+/* sub restaurant */
+body#twitter div#right_area li.restaurant a {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) 0 0px no-repeat;
+}
+body#twitter div#right_area li.restaurant a:hover {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -220px 0px no-repeat;
+}
+body#twitter div#right_area li.restaurant {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -220px 0px no-repeat;
+}
+
+body#twitter div#right_area li.restaurant_index a {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -440px 0px no-repeat;
+}
+body#twitter div#right_area li.restaurant_index a:hover {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -660px 0px no-repeat;
+}
+body#twitter div#right_area li.restaurant_index {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -660px 0px no-repeat;
+}
+
+
+
+/* sub shop */
+body#twitter div#right_area li.shop a {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) 0 -53px no-repeat;
+}
+body#twitter div#right_area li.shop a:hover {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -220px -53px no-repeat;
+}
+body#twitter div#right_area li.shop {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -220px -53px no-repeat;
+}
+
+body#twitter div#right_area li.shop_index a {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -440px -53px no-repeat;
+}
+body#twitter div#right_area li.shop_index a:hover {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -660px -53px no-repeat;
+}
+body#twitter div#right_area li.shop_index {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -660px -53px no-repeat;
+}
+
+/* sub service */
+body#twitter div#right_area li.service a {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) 0 -106px no-repeat;
+}
+body#twitter div#right_area li.service a:hover {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -220px -106px no-repeat;
+}
+body#twitter div#right_area li.service {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -220px -106px no-repeat;
+}
+
+body#twitter div#right_area li.service_index a {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -440px -106px no-repeat;
+}
+body#twitter div#right_area li.service_index a:hover {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -660px -106px no-repeat;
+}
+body#twitter div#right_area li.service_index {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -660px -106px no-repeat;
+}
+
+/* sub clinic */
+body#twitter div#right_area li.clinic a {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) 0 -159px no-repeat;
+}
+body#twitter div#right_area li.clinic a:hover {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -220px -159px no-repeat;
+}
+body#twitter div#right_area li.clinic {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -220px -159px no-repeat;
+}
+
+body#twitter div#right_area li.clinic_index a {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -440px -159px no-repeat;
+}
+body#twitter div#right_area li.clinic_index a:hover {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -660px -159px no-repeat;
+}
+body#twitter div#right_area li.clinic_index {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -660px -159px no-repeat;
+}
+/* sub all */
+body#twitter div#right_area li.all a {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) 0 -212px no-repeat;
+}
+body#twitter div#right_area li.all a:hover {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -220px -212px no-repeat;
+}
+body#twitter div#right_area li.all {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -220px -212px no-repeat;
+}
+
+body#twitter div#right_area li.all_index a {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -440px -212px no-repeat;
+}
+body#twitter div#right_area li.all_index a:hover {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -660px -212px no-repeat;
+}
+body#twitter div#right_area li.all_index {
+	background:url(/plaza/twitter/img/sub_navi_twitter.gif) -660px -212px no-repeat;
+}
+
+/*twitterタイトル修正*/
+.twitter_date_block {
+width:675px;
+height:27px;
+background:url(../../twitter/img/h3_bg.gif) no-repeat;
+margin:20px auto 11px auto;
+}
+
+h3.title_twitter {
+float:left;
+width:300px;
+color:#FFFFFF;
+font-size:93%;
+text-indent:10px;
+font-weight:bold;
+line-height:27px;
+}
+
+span.date_txt_small {
+display:block;
+width:375px;
+text-align:right;
+float:right;
+font-size:77%;
+line-height:27px;
+color:#FFFFFF;
+}
+
+table.twitter {
+width:675px;
+margin:0 auto;
+font-size:93%;
+}
+table.twitter th.floor {
+vertical-align:top;
+width:65px;
+}
+
+table.twitter_inner {
+width:610px;
+}
+table.twitter_inner th{
+font-weight:bold;
+height:22px;
+}
+table.twitter_inner td.rii{
+text-align:right;
+}
+table.twitter_inner td.date{
+text-align:left;
+height:22px;
+color:#969696;
+}
+
+table.twitter_date {
+margin-top:5px;
+text-align:left;
+
+}
+table.twitter_date td{
+width:120px;
+height:15px;
+color:#969696;
+}
+
+.twitter_line {
+	width:675px;
+	margin:10px auto 15px;
+}
+
+#footer{
+width:100%;
+height:114px;
+background:none;
+margin:0;
+}
+
+#footernavi {
+width:950px;
+height:114px;
+background:none;
+margin:0 auto;
+position:relative;
+}
