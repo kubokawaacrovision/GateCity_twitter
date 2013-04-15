@@ -95,8 +95,10 @@ function twitterCallback2(twitters, mask, redraw) {
 	twuser.link.appendChild(atag);
     statusHTML.push([twuser.elem, twitters[i].category]);
   }
+  // ゲートシティ各店舗のつぶやき
   filtering(filtered);
-  //official(filtered);
+  
+  //-----
   if(redraw){
 	  setTimeout(function(){
 	  	var favphp=document.getElementById('favtwphp');
@@ -113,6 +115,8 @@ function twitterCallback2(twitters, mask, redraw) {
 	  }, redraw*1000);
   }
 }
+
+/**** Time ****/
 function u_time(time_value){
   var values = time_value.split(" ");
   time_value = values[1] + " " + values[2] + ", " + values[5] + " " + values[3];
@@ -156,6 +160,8 @@ function relative_time(time_value) {
     return (parseInt(delta / 86400)).toString() + " 日前";
   }
 }
+
+/**** GateCity each store ****/
 function filtering(cat){
     nchild=twwrapper.children.length;
     for(i=0; i<nchild; i++){
@@ -170,13 +176,8 @@ function filtering(cat){
             twwrapper.appendChild(statusHTML[i][0]);
 			if(i==0){
 				var twheader=document.getElementById("twheader").cloneNode(true);
-				twheader.innerHTML='<h3 class="title_twitter">ゲートシティプラザお店</h3>\n<span class="date_txt_small">※掲載情報に関するお問い合わせは、各店舗までお願いします。</span>\n';
+				twheader.innerHTML='<h3 class="title_twitter">ゲートシティプラザ各店舗と公式つぶやき</h3>\n<span class="date_txt_small">※掲載情報に関するお問い合わせはホームページまでお願いします。</span>\n';
 				twwrapper.appendChild(twheader);
-			else if(i==3){
-				var twheader=document.getElementById("twheader").cloneNode(true);
-				twheader.innerHTML='<h3 class="title_twitter">公式つぶやき</h3>\n<span class="date_txt_small">※掲載情報に関するお問い合わせは、各店舗までお願いします。</span>\n';
-				twwrapper.appendChild(twheader);
-				
 			} else {
 				var twline=document.createElement('div');
 				var twlineimg=document.createElement('img');
@@ -184,12 +185,11 @@ function filtering(cat){
 				twline.className="twitter_line";
 				twline.appendChild(twlineimg);
 				twwrapper.appendChild(twline);
+				
 			}
-		}
-       
+        }
     }
 }
-
 
 
 
