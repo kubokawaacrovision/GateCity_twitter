@@ -127,15 +127,21 @@ $(document).ready( function() {
 <!--// JS Library -->
 <div id="jTweetsAnywhereSample"></div>
 <script type="text/javascript">
-$(document).ready(function() {
-    $('#jTweetAnywhereSample').jTweetsAnywhere({
-    	username: ['Love_McD', 'PatagoniaJP','akiko_lawson','docomo','circleksunkus'],
-        count: 10,
-        showTweetFeed:{ showProfileImages:true, showUserScreenNames:true },
-     //	searchParams: ['q=Love_McD']
+/* ~ Category ~ 
+	* Restaurant, Shop, Service, All
+	* restaurant -> GINZALION_PR(http://ginzalion.jp::銀座ライオン), Starbucks_J(http://www.starbucks.co.jp/::スターバックス), LoveShirokuma(::シロクマカレー), PatagoniaJP( http://www.patagonia.com/japan/::バタゴニア), temomincom( http://www.global-sports.co.jp/::てもみん)
+	* shop -> DaiichiEngei(http://www.daiichi-engei.co.jp/::第一園芸), docomo(http://www.nttdocomo.co.jp/::ドコモ), tomods_hts( トモズ), akiko_lawson(http://www.lawson.co.jp/socialmedia/::ローソン)
+	* service -> resona_pr(http://www.resona-gr.co.jp/::りそな銀行), bk_mufg1880(::三菱UFJ銀行),　
+	*/
+	$(document).ready(function() {
+		//document.write("<h3>オフィシャルツィート</h3>");
+    	$('#jTweetsAnywhereSample').jTweetsAnywhere({
+        	username: ['Love_McD', 'PatagoniaJP','akiko_lawson','docomo','circleksunkus','GINZALION_PR','Starbucks_J','LoveShirokuma','temomincom','DaiichiEngei','resona_pr','bk_mufg1880'],
+        	count: 5,
+        	showTweetFeed:{ showProfileImages:true, showUserScreenNames:true },
+        	//	searchParams: ['q=Love_McD']
+        })
 	});
-});
-		
 </script>
 <!-- JS Library -->
 

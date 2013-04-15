@@ -1,6 +1,6 @@
 <?php
 error_reporting(0);
-include('./assets.php');
+//include('./assets.php');
 set_include_path(get_include_path().PATH_SEPARATOR.$includePath);
 require_once 'Services/Twitter.php';
 require_once 'HTTP/OAuth/Consumer.php';
@@ -77,7 +77,7 @@ function isMember($ar, $tkey, $tval){
 
 //いらないフィルターの除去
 function updateFilter($arr, $fil){
-	global $dbpath;
+	$dbpath02 = "../data/official.db3";
 	$dellist=array();
 	foreach($fil as $f){
 		//数字以外はスキップ
@@ -127,7 +127,7 @@ if(!file_exists($cachepath)){
 
 try {
    // connect to database
-   $dbh = new PDO('sqlite:'.$dbpath);
+   $dbh = new PDO('sqlite:'.$dbpath02);
    // query and retrieve active accounts
    $sth = $dbh->query("SELECT * FROM accounts WHERE activity = '1'");
    $accounts = $sth->fetchAll();
@@ -143,7 +143,6 @@ try {
    // 設定を取得
    $sth=$dbh->query("SELECT * FROM options");
    $option=$sth->fetchAll();
-   exit('alert("' . printf($option) . '");');
    $sth=null;
    unset($dbh);
 } catch (PDOException $e) {

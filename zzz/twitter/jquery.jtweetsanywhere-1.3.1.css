@@ -12,10 +12,13 @@
     padding: -50px;
     list-style: none;
     top: -100px;
-    width: 713px;
-    height: 27px;
-    margin-left:300px;
-    margin-top:0px;
+    width: 715px;
+    height: 20px;
+    margin-left:0px;
+    margin-top:20px;
+    font-size: 12px;
+    font-weight:bold
+   
 }
 .jta-tweet-list-item
 {

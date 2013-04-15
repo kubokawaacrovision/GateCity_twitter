@@ -1,25 +1,83 @@
-|1|大戸屋　ゲートシティ大崎店|ootyagcoosaki|http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=39|レストラン
 
-insert into accounts values('' ,1, 'マクドナルド', 'Love_McD', 'http://www.mcdonalds.co.jp/', 'レストラン');
+insert into accounts values('http://a3.twimg.com/profile_images/1610229687/plazalogos_normal.jpg',1,'ゲートシティ','gcoplz','http://www.gatecity.jp','root');  
+insert into accounts values('http://a0.twimg.com/profile_images/2973776126/e77d4c7294678719b6db5dc470cffe4b_normal.jpeg',1,'シロクマカレー','sirokumacurry', 'http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=52|', 'レストラン');
+insert into accounts values('http://a0.twimg.com/profile_images/2929279552/40e0feb738fc2a5a5607562fdc167a01.jpeg',1,'パタゴニア大崎店','PatagoniaOhsaki','http://twitter.com/PatagoniaOhsaki','ショップ');
+insert into accounts values('https://si0.twimg.com/sticky/default_profile_images/default_profile_4_normal.png
+insert into accounts values('https://si0.twimg.com/sticky/default_profile_images/default_profile_4_normal.png',1,'大戸屋　ゲートシティ大崎店','ootyagcoosaki','ttp://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=39','レストラン');
+insert into accounts values('https://si0.twimg.com/profile_images/1531219146/_________50_normal.jpg',1,'梅蘭　ゲートシティ大崎店','bairanoosaki','http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=21','レストラン');
+insert into accounts values('',1,'manomagio','manomagio','http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=10','レストラン');
+insert into accounts values('',1,'チェゴヤGC大崎店','chegoyaosaki','http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=45','レストラン');
+insert into accounts values('',1,'チャームゾーン・ジャパン','CHARMZONE_JAPAN','http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=30','ショップ');
+insert into accounts values('https://si0.twimg.com/profile_images/1627201901/g_rogo_normal.jpg',1,'リラック大崎','reluckosaki','http://www.gatecity.jp/plaza111115/restaurantandshop/detail.php?id=36','レストラン');
+insert into accounts values('',1,'','','','');
+insert into accounts values('',1,'mr.phadthai','reenPhadThai','http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=44','レストラ');
+insert into accounts values('https://si0.twimg.com/profile_images/1644927394/ai05tA1Y_normal',1,'サンクスゲートシティ大崎店|','sunkus_gco','http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=26','ショップ');
+insert into accounts values('https://si0.twimg.com/profile_images/1644937663/__s_normal.JPG',1,'日本海庄やゲートシティ大崎店','nshoyaosaki','http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=48','レストラン');
+insert into accounts values('https://si0.twimg.com/profile_images/1607361934/____normal.jpg',1,'the ShANNONS','TheShANNONS1999','http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=48','レストラン');
+insert into accounts values('https://si0.twimg.com/profile_images/1887836508/a449107v_normal.jpg',1,'ファルチガーデンテラス','falchi_','http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=41','レストラン');
+
+/* twitter */ icon
+http://api.twitter.com/1/users/profile_image?screen_name=obakenote&size=normal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 既存 */
+http://a3.twimg.com/profile_images/1610229687/plazalogos_normal.jpg|1|ゲートシティプラザ|gcoplz|http://www.gatecity.jp/|root
+|1|大戸屋　ゲートシティ大崎店|ootyagcoosaki|http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=39|レストラン
+|1|梅蘭　ゲートシティ大崎店|bairanoosaki|http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=21|レストラン
+|1|manomagio|manomagio|http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=10|レストラン
+|1|チェゴヤGC大崎店|chegoyaosaki|http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=45|レストラン
+|1|チャームゾーン・ジャパン|CHARMZONE_JAPAN|http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=30|ショップ
+|0||bunseidougate||サービス
+|1|リラック大崎|reluckosaki|http://www.gatecity.jp/plaza111115/restaurantandshop/detail.php?id=36|レストラン
+|1|リラック大崎|ReluckOsaki|http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=36|ショップ
+|1|mr.phadthai|GreenPhadThai|http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=44|レストラン
+|1|サンクスゲートシティ大崎店|sunkus_gco|http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=26|ショップ
+|1|日本海庄やゲートシティ大崎店|nshoyaosaki|http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=20|レストラン
+|1|the ShANNONS |TheShANNONS1999|http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=48|レストラン
+|1|ファルチガーデンテラス|falchi_|http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=41|レストラン
+http://a0.twimg.com/profile_images/2973776126/e77d4c7294678719b6db5dc470cffe4b_normal.jpeg|1|シロクマカレー|sirokumacurry|http://www.gatecity.jp/plaza/restaurantandshop/detail.php?id=52|レストラン
+http://a0.twimg.com/profile_images/2929279552/40e0feb738fc2a5a5607562fdc167a01.jpeg|1|パタゴニア大崎店|PatagoniaOhsaki|http://twitter.com/PatagoniaOhsaki|ショップ
+
+
+
+
+
+
+/* twitter */ icon
+http://api.twitter.com/1/users/profile_image?screen_name=obakenote&size=normal
+
+insert into accounts values('https://si0.twimg.com/profile_images/2809655586/70820165477da1a0ef8f2a2853a4e347_normal.png' ,1, 'マクドナルド', 'Love_McD', 'http://www.mcdonalds.co.jp/', 'レストラン');
 insert into accounts values();
 /* レストラン */
 /* ショップ */
 /* サービス */
 
 /* レストラン */
-insert into accounts values('',1,'銀座ライオン','GINZALION_PR', 'http://ginzalion.jp', 'レストラン');
-insert into accounts values('',1,'スターバックス コーヒー','Starbucks_J','http://www.starbucks.co.jp/','レストラン');
-insert into accounts values('',1,'シロクマカレー', 'LoveShirokuma','http://www.shirokuma-curry.jp/', 'レストラン');
-insert into accounts values('',1,'バタゴニア', 'PatagoniaJP','http://www.patagonia.com/japan/', 'レストラン');  //UPDATEあり
-insert into accounts values('',1,'てもみん','temomincom','http://www.global-sports.co.jp/','レストラン');  //UPDATEあり
+insert into accounts values('https://si0.twimg.com/profile_images/1714280507/03_normal.jpg',1,'銀座ライオン','GINZALION_PR', 'http://ginzalion.jp', 'レストラン');
+insert into accounts values('https://si0.twimg.com/profile_images/1274140069/starbucks_logo_normal.png',1,'スターバックス コーヒー','Starbucks_J','http://www.starbucks.co.jp/','レストラン');
+insert into accounts values('https://si0.twimg.com/profile_images/1595685782/twitter_shirokuma_normal.jpg',1,'シロクマカレー', 'LoveShirokuma','http://www.shirokuma-curry.jp/', 'レストラン');
+insert into accounts values('https://si0.twimg.com/profile_images/2550892009/6y0cjp7s1h7t91zhtptq_normal.gif',1,'バタゴニア', 'PatagoniaJP','http://www.patagonia.com/japan/', 'レストラン');  //UPDATEあり
+insert into accounts values('https://si0.twimg.com/profile_images/902301026/____2a_normal.jpg',1,'てもみん','temomincom','http://www.global-sports.co.jp/','レストラン');  //UPDATEあり
 /* ショップ */
-insert into accounts values('',1,'ローソン','akiko_lawson','http://www.lawson.co.jp/socialmedia/','ショップ');
-insert into accounts values('',1,'トモズ','tomods_hts','http://www.tomods.jp/','ショップ');
-insert into accounts values('',1,'ドコモ','docomo','http://www.nttdocomo.co.jp/','ショップ');
-insert into accounts values('',1,'第一園芸','DaiichiEngei','http://www.daiichi-engei.co.jp','ショップ');
+insert into accounts values('https://si0.twimg.com/profile_images/2383554004/7nprcbvgiqyp7f2vahsd_normal.jpeg',1,'ローソン','akiko_lawson','http://www.lawson.co.jp/socialmedia/','ショップ');
+insert into accounts values('https://si0.twimg.com/profile_images/994797104/ti037_normal.jpg',1,'トモズ','tomods_hts','http://www.tomods.jp/','ショップ');
+insert into accounts values('https://si0.twimg.com/profile_images/1816402543/docomoOfficial_icon_normal.gif',1,'ドコモ','docomo','http://www.nttdocomo.co.jp/','ショップ');
+insert into accounts values('https://si0.twimg.com/profile_images/1006616044/_____normal.jpg',1,'第一園芸','DaiichiEngei','http://www.daiichi-engei.co.jp','ショップ');
 /* サービス */
-insert into accounts values('',1,'三菱UFJ銀行','bk_mufg1880','三菱UFJ銀行','サービス');
-insert into accounts values('',1,'りそな銀行','resona_pr','http://www.resona-gr.co.jp/','サービス');
+insert into accounts values('https://si0.twimg.com/sticky/default_profile_images/default_profile_1_normal.png',1,'三菱UFJ銀行','bk_mufg1880','三菱UFJ銀行','サービス');
+insert into accounts values('https://si0.twimg.com/profile_images/1437800771/pr_logo_normal.gif',1,'りそな銀行','resona_pr','http://www.resona-gr.co.jp/','サービス');
 
 
 

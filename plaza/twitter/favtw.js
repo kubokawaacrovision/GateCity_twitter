@@ -98,7 +98,7 @@ function twitterCallback2(twitters, mask, redraw) {
   // ゲートシティ各店舗のつぶやき
   filtering(filtered);
   // ゲートシティ各店舗の親元つぶやき
-  OfficialTwitter(filtered);
+  //	OfficialTwitter(filtered);
   //-----
   if(redraw){
 	  setTimeout(function(){
@@ -187,8 +187,6 @@ function filtering(cat){
 				twline.appendChild(twlineimg);
 				twwrapper.appendChild(twline);
 				
-				twheader.innerHTML='<h3 class="title_twitter">オフィシャルツィート</h3>\n<span class="date_txt_small">※掲載情報に関するお問い合わせは、各店舗までお願いします。</span>\n';
-				twrapper.append(twheader);
 			}
         }
     }
