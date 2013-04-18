@@ -1,0 +1,58 @@
+#carousel {
+width: 705px;
+height: 70px;
+position:absolute;
+left:0;
+bottom:0;
+background:url(../../img/mainslide/carousel_bg.gif) no-repeat;
+overflow:hidden;
+}
+
+.list_carousel {
+margin: 0;
+width: 550px;
+height: 64px;
+position:absolute;
+background:#ffffff;
+left:137px;
+top:3px;
+}
+.list_carousel ul {
+margin: 0;
+padding: 0;
+list-style: none;
+display: block;
+}
+.list_carousel li {
+width: 110px;
+height: 64px;
+padding: 0;
+margin: 0;
+display: block;
+float: left;
+}
+
+.clearfix {
+float: none;
+clear: both;
+}
+.prev {
+width: 10px;
+height: 64px;
+display: block;
+position:absolute;
+left:127px;
+top:3px;
+}
+.next {
+width: 10px;
+height: 64px;
+display: block;
+position:absolute;
+right:8px;
+top:3px;
+}
+a:hover img.alpha{
+	opacity:0.7;
+	filter: alpha(opacity=70);
+}

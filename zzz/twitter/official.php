@@ -7,7 +7,7 @@ require_once 'HTTP/OAuth/Consumer.php';
 header('Content-type:text/javascript');
 
 //ファイルロッククラス
-class file_lock{
+class file_lock02{
 	private $lockfile;
 	private $lockfp;
 	//コンストラクタ
@@ -259,3 +259,4 @@ if($flock->lock($cachepath)){
 	echo "var errstr='001 could not lock cachefile.';alert(errstr);";
 }
 ?>
+

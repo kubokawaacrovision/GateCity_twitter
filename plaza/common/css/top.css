@@ -1,0 +1,410 @@
+@charset "UTF-8";
+/*トップページにのみ適用される設定*/
+
+
+
+
+/*************** 左エリア *****************/
+#left_area{
+width:220px;
+background:url(../../common/img/left_bg.gif) repeat-y;
+float:left;
+margin-bottom:25px;
+}
+
+#left_contents {
+width:191px;
+margin:10px auto;
+}
+.kokouri_ban{
+margin-top:10px;
+}
+
+/* カレンダー */
+.calender_area {
+background:url(../../common/img/calender_bg.gif) repeat-y;
+margin-top:10px;
+}
+
+.calender_area h2{
+width:191px;
+height:45px;
+background:url(../../common/img/title_calender.gif) no-repeat;
+text-indent:-9999px;
+line-height:1%;
+font-size:77%;
+}
+
+.cal_date {
+width:160px;
+margin:15px auto 0 auto;
+clear:both;
+}
+.cal_month {
+width:65px;
+line-height:10px;
+margin-left:2px;
+font-size:77%;
+float:left;
+}
+.cal_nav {
+width:90px;
+float:right;
+text-align:center;
+line-height:10px;
+font-size:77%;
+position:relative;
+margin-bottom:8px;
+}
+.cal_nav a.cal_prev{
+display:block;
+width:9px;
+height:9px;
+position:absolute;
+left:0;
+top:0;
+}
+.cal_nav a.cal_next{
+display:block;
+width:9px;
+height:9px;
+position:absolute;
+right:0;
+top:0;
+}
+
+.calender_area table#calender{
+	margin:0 auto 0 auto;
+	width: 162px;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	font-size:77%;
+	line-height:22px;
+}
+
+.calender_area tr{
+
+}
+
+.calender_area th{
+	text-align: center;
+	background-color:#82C800;
+	border-bottom: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	color:#ffffff;
+}
+
+.calender_area td{
+	text-align: center;
+	background-color:#82C800;
+	border-bottom: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	color:#ffffff;
+}
+.calender_area td.pad{
+	background-color:#ffffff;
+}
+.calender_area td.none{
+	background-color:#D2F078;
+}
+.calender_area td.today{
+	background-color:#006428;
+}
+
+/*区切り線*/
+
+.cal_hr {
+width:163px;
+height:1px;
+background:url(../../common/img/green_dotline.gif) repeat-x;
+margin:14px auto;
+}
+
+/*イベントインフォメーション*/
+.event_info {
+width:160px;
+margin:0 auto;
+}
+.event_info h3{
+color:#FF6400;
+font-size:93%;
+font-weight:bold;
+margin-bottom:5px;
+}
+
+.event_info ul{
+margin-bottom:15px;
+}
+.event_info ul li{
+background:url(../../common/img/green_arrow.gif) no-repeat 0 4px;
+padding-left:12px;
+padding-bottom:5px;
+font-size:93%;
+line-height:138.5%;
+}
+.calender_area_bottom {
+background:url(../../common/img/calender_area_bottom.gif) no-repeat;
+width:191px;
+height:5px;
+}
+
+/*バナーエリア*/
+#left_banner_area {
+width:190px;
+margin:15px auto 8px auto;
+}
+.left_banner{
+width:190px;
+}
+
+
+/*************** 左エリアここまで *****************/
+
+/*************** 中央エリア *****************/
+#center_area{
+width:460px;
+float:left;
+margin-left:25px;
+}
+
+h2.top_center{
+width:460px;
+height:23px;
+margin-top:30px;
+}
+
+.more_block{
+width:460px;
+height:9px;
+text-align:right;
+margin:10px 0;
+}
+
+.info_block{
+width:460px;
+margin-top:19px;
+}
+
+.info_block_thumb {
+width:86px;
+height:86px;
+border:1px solid #C8C8C8;
+overflow:hidden;
+float:left;
+}
+
+.info_block_thumb img{
+
+}
+
+.info_block_baloon {
+width:362px;
+height:86px;
+background:url(../../img/info_block_baloon.gif) no-repeat;
+float:right;
+position:relative;
+}
+
+.info_block_baloon h3{
+width:263px;
+margin-left:43px;
+margin-top:17px;
+margin-bottom:0px;
+font-weight:bold;
+font-size:93%;
+}
+
+.info_block_baloon p{
+width:291px;
+margin-left:43px;
+font-size:93%;
+}
+
+.more_icon {
+width:37px;
+height:11px;
+position:absolute;
+top:19px;
+right:12px;
+}
+
+/*メインバナーエリア　スライド＆カルーセル*/
+#main_banner_area{
+width:705px;height:395px;float:right;position:relative;
+}
+
+/*************** 中央エリアここまで *****************/
+
+/*************** 右エリアここまで *****************/
+#right_area{
+width:220px;
+float:right;
+margin-top:30px;
+}
+
+/*お薦めメニュースライド
+#right_area h2.title_recommend{
+width:220px;
+height:34px;
+line-height:1%;
+font-size:93%;
+text-indent:-9999px;
+background:url(/plaza/common/img/title_recommend.gif);
+}
+
+.recommend_item_slide {
+width:220px;
+}
+
+.recom_area{
+width:220px;
+height:150px;
+overflow: hidden;
+margin:15px 0 0 0;
+position:relative;
+}
+
+#right_area .recommend01, #right_area .recommend02{
+width:200px;
+height:150px;
+}
+
+#right_area .carousel01 ul li, #right_area .carousel02 ul li{
+width:170px;
+height:150px;
+text-align:center;
+margin:0 15px 0 19px;
+}
+
+#right_area .carousel01 ul li div.thumb, #right_area .carousel02 ul li div.thumb{
+width:135px;
+height:100px;
+margin:0 auto;
+}
+
+#right_area .carousel01 ul li img, #right_area .carousel02 ul li img{
+width:135px;
+height:80px;
+}
+
+#right_area span.shopname{
+width:135px;
+height:20px;
+display:block;
+color:#ffffff;
+font-size:93%;
+line-height:20px;
+text-align:center;
+background:#646464;
+
+}
+
+#right_area span.itemname{
+width:170px;
+display:block;
+font-size:93%;
+text-align:left;
+margin:3px 0 3px 0;
+}
+
+.recom_next {
+width:9px;
+height:9px;
+position:absolute;
+top:50px;
+right:0;
+z-index:3;
+}
+
+.recom_next a{
+display:block;
+width:9px;
+height:9px;
+background:url(/plaza/common/img/recom_next.gif) no-repeat;
+text-indent:-9999px;
+font-size:1px;
+line-height:1px;
+}
+
+.recom_hr {
+width:220px;
+height:1px;
+background:url(/plaza/common/img/green_dotline.gif) repeat-x;
+margin:5px auto;
+line-height:1px;
+}
+お薦めメニュースライド　ここまで*/
+
+/*youtubeエリア*/
+.youtube_hr {
+width:220px;
+height:2px;
+background:#82C800;
+margin:5px auto 22px auto;
+}
+
+.youtube_info {
+width:216px;
+background:#DCDCDC;
+border-top:1px solid #ffffff;
+}
+
+.youtube_info p.youtube_txt {
+margin:10px;
+padding-bottom:10px;
+}
+
+/*その他バナーエリア*/
+.banner_hr {
+width:220px;
+height:2px;
+background:#82C800;
+margin:5px auto 22px auto;
+}
+
+a.banner_01 {
+background:url(/plaza/img/shirokuma.jpg) left top;
+width:216px;
+height:165px;
+display:block;
+}
+a.banner_01:hover{
+background:url(/plaza/img/shirokuma.jpg) left bottom;
+}
+
+a.banner_02 {
+background:url(/plaza/img/jobinfo.jpg) left top;
+width:216px;
+height:150px;
+display:block;
+}
+a.banner_02:hover{
+background:url(/plaza/img/jobinfo.jpg) left bottom;
+}
+a.banner_03 {
+background:url(/plaza/common/img/hours_rollout.gif) left top;
+width:216px;
+height:145px;
+display:block;
+}
+a.banner_03:hover{
+background:url(/plaza/common/img/hours_rollover.gif) left bottom;
+}	
+
+
+/*右下コンテントナビ*/
+
+#right_content_navi {
+margin-top:26px;
+}
+.right_navi {
+width:216px;
+height:70px;
+}
+.right_navi_hr {
+width:216px;
+height:1px;
+background:#C8C8C8;
+line-height:1px;
+}
+/**************************右エリアここまで**************************/

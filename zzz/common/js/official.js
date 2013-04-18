@@ -33,7 +33,7 @@ eObj.prototype.getTwTags=function(o){
 		n=n.nextSibling;
 	}
 }
-function twitterCallback2(twitters, mask, redraw) {
+function twitterCallback02(twitters, mask, redraw) {
   var filter=new filObj(mask);
   statusHTML.length=0;
   for(i=0; i<twitters.length-1; i++){
@@ -113,13 +113,13 @@ function twitterCallback2(twitters, mask, redraw) {
 	  }, redraw*1000);
   }
 }
-function u_time(time_value){
+function u_time02(time_value){
   var values = time_value.split(" ");
   time_value = values[1] + " " + values[2] + ", " + values[5] + " " + values[3];
   var parsed_date = Date.parse(time_value);
   return parsed_date;
 }
-function absolute_time(time_value){
+function absolute_time02(time_value){
   var values = time_value.split(" ");
   time_value = values[1] + " " + values[2] + ", " + values[5] + " " + values[3];
   dt=new Date(time_value);
@@ -133,7 +133,7 @@ function absolute_time(time_value){
   mn=(dt.getMinutes()+100).toString().slice(1);
   return yy+"-"+mm+"-"+dd+" "+hh+":"+mn;
 }
-function relative_time(time_value) {
+function relative_time02(time_value) {
   var values = time_value.split(" ");
   time_value = values[1] + " " + values[2] + ", " + values[5] + " " + values[3];
   var parsed_date = Date.parse(time_value);
@@ -156,7 +156,7 @@ function relative_time(time_value) {
     return (parseInt(delta / 86400)).toString() + " 日前";
   }
 }
-function filtering(cat){
+function filtering02(cat){
     nchild=twwrapper.children.length;
     for(i=0; i<nchild; i++){
         twwrapper.removeChild(twwrapper.lastChild);

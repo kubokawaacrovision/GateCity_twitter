@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/*
+Copyright (c) 2011, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 2.9.0
+*/
+/**
+ * YUI Fonts
+ * @module fonts
+ * @namespace yui-
+ * @requires 
+ */
+
+/**
+ * Percents could work for IE, but for backCompat purposes, we are using keywords.
+ * x-small is for IE6/7 quirks mode.
+ */
+/*--------------------------------------------------------
+YUI Font-size Adjustment
+10px = 77%     11px = 85%	  12px = 93%     13px = 100%
+14px = 108%	   15px = 116%    16px = 123.1%  17px = 131%
+18px = 138.5%  19px = 146.5%  20px = 153.9%  21px = 161.6%
+22px = 167%    23px = 174%    24px = 182%    25px = 189%
+26px = 197%
+------------------------------------------------------*/
+body {
+	font:13px/1.231 “ヒラギノ角ゴ Pro W3″, “Hiragino Kaku Gothic Pro”, Osaka, “メイリオ”, Meiryo, “ＭＳ Ｐゴシック”, “MS PGothic”, sans-serif;
+	/* for IE6/7 */ 
+	*font-size:small; 
+	/* for IE Quirks Mode */
+	*font:x-small;
+	color:#323232;
+}
+html>/**/body {
+	font-size /*\**/: small\9;
+}
+
+
+/**
+ * Nudge down to get to 13px equivalent for these form elements
+ */ 
+select,
+input,
+textarea,
+button {
+	font:99% “ヒラギノ角ゴ Pro W3″, “Hiragino Kaku Gothic Pro”, Osaka, “メイリオ”, Meiryo, “ＭＳ Ｐゴシック”, “MS PGothic”, sans-serif;
+}
+
+/**
+ * To help tables remember to inherit
+ */
+table {
+	font-size:inherit;
+	font:100%;
+}
+
+/**
+ * Bump up IE to get to 13px equivalent for these fixed-width elements
+ */
+pre,
+code,
+kbd,
+samp,
+tt {
+	font-family:monospace;
+	*font-size:108%;
+	line-height:100%;
+}
+
+strong{
+font-weight:bold;
+}
+
+.text10 { font-size:77%; }
+.text11 { font-size:85%; }
+.text12 { font-size:93%; }
+.text13 { font-size:100%; }
+.text14 { font-size:108%; }
+.text15 { font-size:116%; }
+.text16 { font-size:123.1%; }
+.text17 { font-size:131%; }
+.text18 { font-size:138.5%; }
+.text19 { font-size:146.5%; }
+.text20 { font-size:153.9%; }
+.text21 { font-size:161.6%; }
+.text22 { font-size:167%; }
+.text23 { font-size:174%; }
+.text24 { font-size:182%; }
+.text25 { font-size:189%; }
+.text26 { font-size:197%; }

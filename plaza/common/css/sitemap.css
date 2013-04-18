@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/************** sub navigation **************/
+body#sitemap div#sub_navi_title {
+	width:220px;
+	height:70px;
+	background:url(../../sitemap/img/sub_navi_sitemap.gif) 0 0 no-repeat;
+	line-height:0;
+	text-indent:-9999px;
+	overflow:hiden;
+	margin-bottom:0;
+}
+*:first-child+html body#sitemap div#sub_navi_title {
+margin-bottom:-4px;
+}
+
+body#sitemap div#left_area ul {
+	margin:0;
+	padding:0;
+}
+
+body#sitemap div#left_area li {
+	width:220px;
+	height:38px;
+	line-height:0;
+	font-size:1%;
+	overflow:hiden;
+	text-indent:-9999px;
+}
+
+body#sitemap div#left_area li a {
+	outline:none;
+	display:block;
+	width:220px;
+	height:38px;
+	line-height:normal;
+}
+
+/* sub cont01 */
+body#sitemap div#left_area li.cont_one {
+	background:url(../../sitemap/img/sub_navi_sitemap.gif) 0 -70px no-repeat;
+}
+
+h4.dotline{
+margin-bottom:10px;
+background:url(../img/h4_dotline.gif) no-repeat left bottom;
+width:659px;
+height:21px;
+}
+
+
+/*サイトマップ*/
+.sitemap_left{
+width:310px;
+float:left;
+}
+.sitemap_right{
+width:310px;
+float:right;
+}
+.sitemap_left ul, .sitemap_right ul{
+margin-left:15px;
+}
+
+.sitemap_left li, .sitemap_right li{
+background:url(../img/link_arrow.gif) no-repeat left 6px;
+padding-left:15px;
+line-height:21px;
+}
+
+
+.contentblock{
+margin-bottom:37px;
+}
+
+div.read {
+height:62px;
+}

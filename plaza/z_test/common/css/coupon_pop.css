@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body#coupon_pop{
+background:none;
+}
+#coupon_wrapper {
+width:100%;
+border-top:2px solid #007535;
+}
+h1.title_pop_h1{
+width:549px;
+padding:20px 0 40px 0px;
+margin:0 auto;
+}
+.coupon_btns{
+width:549px;
+margin:20px auto;
+}
+
+.coupon_print {
+width:96px;
+height:21px;
+float:right;
+margin-right:8px;
+}
+.coupon_close {
+width:96px;
+height:21px;
+float:right;
+}

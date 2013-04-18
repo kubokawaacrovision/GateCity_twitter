@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/*第二階層以降共通の設定*/
+
+/*タイトル設定*/
+h2.title_common {
+width:705px;
+height:98px;
+}
+
+h3.title_common_h3 {
+width:659px;
+height:27px;
+margin-bottom:15px;
+}
+
+h4.title_common_h4 {
+width:659px;
+height:41px;
+margin-top:20px;
+}
+
+/*1pxのドット罫線100％*/
+.hr_dotline {
+width:100%;
+height:1px;
+background:url(/plaza/common/img/dotline.gif);
+line-height:0;
+font-size:1%;
+}
+
+
+
+/*************** 左エリア *****************/
+#left_area{
+width:220px;
+float:left;
+margin-bottom:25px;
+}
+
+
+/*************** 右エリア *****************/
+#right_area{
+width:705px;
+float:right;
+background:url(/plaza/common/img/content_bg.gif);
+}
+
+#right_contents {
+width:695px;
+margin:0px auto;
+background:#ffffff;
+padding-top:10px;
+}
+
+.inner_block{
+width:659px;
+margin:20px auto 0 auto;
+}
+
+.pagetop{
+height:13px;
+width:659px;
+margin:0px auto 0 auto;
+text-align:right;
+}

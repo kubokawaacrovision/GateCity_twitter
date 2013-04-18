@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/*************** メインエリア *****************/
+#main_area{
+width:950px;
+background:url(../img/content_bg.gif);
+padding-top:5px;
+}
+
+#center_contents{
+width:940px;
+margin:0 auto;
+background:#ffffff;
+padding-top:10px;
+}
+
+.inner_block{
+width:880px;
+margin:20px auto 0 auto;
+}
+
+.title_recommend_h2{
+margin:20px 30px 0;
+}
+
+.title_recommend_h2a{
+margin:0px 30px 0;
+}
+
+.title_recommend_h2b{
+background:#f5da78;
+width:880px;
+height:5px;
+margin:0px 30px 0;
+}
+
+.title_recommend_h2c{
+background:#ee87b4;
+height:5px;
+width:880px;
+margin:0px 30px 0;
+}
+
+.title_recommend_h2d{
+background:#E7380C;
+height:5px;
+width:880px;
+margin:0px 30px 0;
+}
+
+.recommend_sub{
+width:880px;
+margin:5px auto 0 auto;
+font-size:77%;
+}
+
+.recommend_01{
+float:left;
+width:270px;
+background:url(../img/dotline.gif) bottom no-repeat;
+}
+.recommend_01 dt{
+border-bottom:1px solid #FFFFFF;
+margin-bottom:0;
+display:block;
+}
+.recommend_01 dd{
+font-size:93%;
+padding:15px 0;
+background:url(../img/dotline.gif) bottom no-repeat;
+}
+.recommend_01 dd.menu{
+font-size:93%;
+padding:15px 0;
+color:#B41E00;
+font-weight:bold;
+background:url(../img/dotline.gif) bottom no-repeat;
+}
+
+.recommend_01 dd.icon01{
+background:url(../../recommend/img/1111/icon01.gif) left no-repeat;
+padding-left:35px;
+}
+.recommend_01 dd.icon02{
+background:url(../../recommend/img/1111/icon02.gif) left no-repeat;
+padding-left:35px;
+}
+.recommend_01 dd.icon03{
+background:url(../../recommend/img/1111/icon03.gif) left no-repeat;
+padding-left:35px;
+}
+.recommend_tub{
+width:880px;
+margin:0px auto;
+font-size:77%;
+}
+
+
+.recommend_02{
+float:right;
+width:200px;
+height: 35px;
+margin:0 10px 0 0; 
+overflow: hidden;
+text-indent:-99999px;
+background: url(../../recommend/img/1212/tab_xmas_rollover.gif) no-repeat top;
+}
+
+.recommend_02 a{
+display: block;
+width: 200px;
+height: 35px;
+background: url(../../recommend/img/1212/tab_xmas_rollover.gif) no-repeat top;
+}
+
+.recommend_02 a:hover{
+background: url(../../recommend/img/1212/tab_xmas_rollout.gif) no-repeat top;
+}
+
+
+.recommend_02a{
+float:right;
+width:200px;
+height: 35px;
+overflow: hidden;
+text-indent:-99999px;
+background: url(../../recommend/img/1212/tab_enkai_rollout.gif) no-repeat top;
+}
+
+.recommend_02a a{
+display: block;
+width: 200px;
+height: 35px;
+background: url(../../recommend/img/1212/tab_enkai_rollout.gif) no-repeat top;
+}
+
+.recommend_02a a:hover{
+background: url(../../recommend/img/1212/tab_enkai_rollover.gif) no-repeat top;
+}
+
+/**/
+.recommend_02b{
+float:right;
+width:200px;
+height: 35px;
+margin:0 10px 0 0; 
+overflow: hidden;
+text-indent:-99999px;
+background: url(../../recommend/img/1212/tab_xmas_rollout.gif) no-repeat top;
+}
+
+.recommend_02b a{
+display: block;
+width: 200px;
+height: 35px;
+background: url(../../recommend/img/1212/tab_xmas_rollout.gif) no-repeat top;
+}
+
+.recommend_02b a:hover{
+background: url(../../recommend/img/1212/tab_xmas_rollover.gif) no-repeat top;
+}
+
+
+.recommend_02c{
+float:right;
+width:200px;
+height: 35px;
+overflow: hidden;
+text-indent:-99999px;
+background: url(../../recommend/img/1212/tab_enkai_rollover.gif) no-repeat top;
+}
+
+.recommend_02c a{
+display: block;
+width: 200px;
+height: 35px;
+background: url(../../recommend/img/1212/tab_enkai_rollout.gif) no-repeat top;
+}
+
+.recommend_02c a:hover{
+background: url(../../recommend/img/1212/tab_enkai_rollover.gif) no-repeat top;
+}
+
+.recommend_02d{
+float:right;
+width:200px;
+height: 35px;
+margin:0 10px 0 0; 
+overflow: hidden;
+text-indent:-99999px;
+background: url(../../recommend/img/1304/tab_new_rollover.gif) no-repeat top;
+}
+
+.recommend_02d a{
+display: block;
+width: 200px;
+height: 35px;
+background: url(../../recommend/img/1304/tab_new_rollout.gif) no-repeat top;
+}
+
+.recommend_02d a:hover{
+background: url(../../recommend/img/1304/tab_new_rollover.gif) no-repeat top;
+}

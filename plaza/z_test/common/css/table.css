@@ -1,0 +1,246 @@
+/*各テーブル設定*/
+
+/**************** クリニック*/
+table.service_info{
+width:297px;
+font-size: 93%;
+line-height: 146.5%;
+margin:20px 0 0 20px;
+}
+table.service_info tr{
+vertical-align:top;
+background:url(../img/dotline.gif) left top no-repeat;
+}
+table.service_info th{
+width:96px;
+padding:10px 0 10px 0;
+}
+table.service_info td{
+width:201px;
+padding:10px 0 10px 0;
+}
+table.service_info td.bottomline{
+width:297px;
+padding:0 0 0 0;
+}
+
+/* 営業時間等では入れ子テーブルの設定をautoに */
+
+table.service_info table.inner, table.service_info_wide table.inner{
+width:auto;
+margin:0 0 0 0;
+}
+table.service_info table.inner tr, table.service_info_wide table.inner tr{
+vertical-align:top;
+background:none;
+}
+
+table.service_info table.inner th, table.service_info_wide table.inner th{
+width:auto;
+padding:0 0 0 0;
+}
+
+table.service_info table.inner td, table.service_info_wide table.inner td{
+width:auto;
+padding:0 0 0 1em;
+}
+
+
+
+/* クリニック　最下部の幅広用*/
+table.service_info_wide{
+width:640px;
+font-size: 93%;
+line-height: 146.5%;
+margin:20px 0 0 20px;
+}
+table.service_info_wide tr{
+vertical-align:top;
+background:url(../img/dotline.gif) left top no-repeat;
+}
+table.service_info_wide th{
+width:96px;
+padding:10px 0 10px 0;
+}
+table.service_info_wide td{
+width:544px;
+padding:10px 0 10px 0;
+}
+table.service_info_wide td.bottomline{
+width:640px;
+padding:0 0 0 0;
+}
+
+/**************** アクセッスマップ*/
+table.access_info{
+margin-bottom:10px;
+width:100%;
+font-size: 93%;
+line-height: 146.5%;
+}
+table.access_info tr{
+vertical-align:top;
+background:url(../img/dotline.gif) left top no-repeat;
+}
+table.access_info th{
+padding:10px 0 10px 0;
+white-space:nowrap;
+}
+table.access_info td{
+padding:10px 0 10px 0;
+white-space:nowrap;
+}
+table.access_info td.wrap{
+white-space:normal;
+}
+table.access_info td.bottomline{
+padding:0 0 0 0;
+}
+
+/*  アクセッスマップ内部では入れ子テーブルの設定をautoに */
+
+table.access_info table.inner{
+width:100%;
+margin:0 0 0 0;
+}
+table.access_info table.inner tr{
+vertical-align:top;
+background:none;
+}
+
+table.access_info table.inner th{
+width:65px;
+padding:0 0 0 0;
+white-space:nowrap;
+}
+table.access_info table.inner td{
+padding:0 0 0 1em;
+
+}
+table.access_info table.inner td.info01{
+width:130px;
+}
+table.access_info table.inner td.info02{
+width:50px;
+}
+table.access_info table.inner td.info03{
+width:70px;
+}
+table.access_info table.inner td.info04{
+text-align:justify;
+}
+table.access_info table.inner td.wrap{
+white-space:normal;
+}
+
+
+/**************** キワめ隊*/
+table.kiwametai_info{
+width:346px;
+font-size: 93%;
+line-height: 146.5%;
+margin:0px 0px 20px;
+background:url(../../kiwametai/img/dotline.gif) left bottom no-repeat;
+}
+table.kiwametai_info tr{
+vertical-align:top;
+background:url(../../kiwametai/img/dotline.gif) left top no-repeat;
+}
+table.kiwametai_info td{
+padding:15px 0 15px 0;
+}
+
+table.kiwametai_s{
+width:346px;
+font-size: 93%;
+line-height: 146.5%;
+margin:0px 0px 20px;
+}
+table.kiwametai_s tr{
+vertical-align:top;
+}
+table.kiwametai_s td{
+padding:0;
+}
+
+table.kiwametai_l{
+width:655px;
+font-size: 93%;
+line-height: 146.5%;
+margin:0px 0px 20px;
+}
+table.kiwametai_l tr{
+vertical-align:top;
+}
+table.kiwametai_l td{
+width:603px;
+padding:0;
+}
+
+table.kiwametai_matome{
+width:655px;
+font-size: 93%;
+line-height: 146.5%;
+margin:0px 0px 30px;
+}
+table.kiwametai_matome th{
+vertical-align:top;
+}
+table.kiwametai_matome td{
+padding:0;
+background:url(../../kiwametai/img/matome_bg.gif) bottom repeat-y;
+line-height:26px;
+}
+
+table.shop_profile{
+width:653px;
+font-size: 93%;
+line-height: 146.5%;
+margin:0px 0px 20px;
+border:1px solid #646464;
+}
+table.shop_profile tr{
+vertical-align:top;
+}
+table.shop_profile td{
+padding:20px;
+}
+
+table.shop_date {
+margin-top:5px;
+}
+table.shop_date th{
+font-weight:normal;
+}
+table.shop_date td{
+padding:0px;
+}
+
+
+/**************** ショップニュース*/
+
+table#shopnews {
+width:100%;
+border-collapse:collapse;
+border-top:1px solid #c8c8c8;
+border-bottom:1px solid #c8c8c8;
+font-size:93%;
+margin-bottom:15px;
+margin-top:5px;
+}
+
+table#shopnews tr {
+vertical-align:top;
+}
+table#shopnews th{
+border-right:1px solid #c8c8c8;
+border-bottom:1px solid #c8c8c8;
+white-space:nowrap;
+width:107px;
+padding:5px 5px 5px 0;
+}
+table#shopnews td{
+border-bottom:1px solid #c8c8c8;
+padding:5px 0 5px 5px;
+line-height:123.1%;
+}

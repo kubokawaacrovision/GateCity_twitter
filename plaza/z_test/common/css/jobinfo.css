@@ -1,0 +1,200 @@
+@charset "UTF-8";
+/************** サブナビゲーション **************/
+body#recruit div#sub_navi_title {
+	width:220px;
+	height:69px;
+	background:url(../../jobinfo/img/sub_navi_recruit.gif) 0 0 no-repeat;
+	line-height:0;
+	text-indent:-9999px;
+	overflow:hiden;
+	margin-bottom:0;
+}
+*:first-child+html body#recruit div#sub_navi_title {
+margin-bottom:-4px;
+}
+
+body#recruit div#left_area ul.shop_recruit_restaurant {
+	margin:0;
+	padding:0 0 0 0;
+}
+body#recruit div#left_area ul.shop_recruit_service {
+	margin:20px 0 0 0;
+	padding:0 0 0 0;
+}
+
+
+body#recruit div#left_area li.shop_recruit {
+	width:220px;
+	height: auto;
+	line-height:21px;
+	overflow:hiden;
+	background:url(../../jobinfo/img/sub_navi_recruit_arrow.gif) 0 0 no-repeat;
+	padding-left:21px;
+	margin:2px 0;
+	letter-spacing:1px;
+	font-size:93%;
+}
+
+body#recruit div#left_area li.shop_recruit a {
+	outline:none;
+	width:220px;
+	height:21px;
+	line-height:21px;
+}
+body#recruit div#left_area li.shop_cat {
+	width:220px;
+	height:39px;
+	line-height:39px;
+	overflow:hiden;
+	background:url(../../jobinfo/img/shop_cat_bg.gif) 0 0 no-repeat;
+	text-indent:21px;
+	margin:2px 0 10px 0;
+	letter-spacing:1px;
+	font-size:93%;
+	font-weight:bold;
+}
+
+body#recruit div#left_area li.shop_cat a {
+	outline:none;
+	display:block;
+	width:220px;
+	height:39px;
+	line-height:39px;
+}
+
+
+.new {
+	color:#FF1D00;
+	font-weight:bold;
+}
+
+/*求人情報詳細部分*/
+.jobinfo_left{
+width:235px;
+float:left;
+}
+.jobinfo_right{
+width:406px;
+float:right;
+}
+
+/*ショップイメージ*/
+.thmwap {
+width:235px;
+overflow:hidden;
+margin-top:2px;
+}
+ul.thumbnail {
+width:239px;
+margin-left:-2px;
+}
+ul.thumbnail li {
+width:117px;
+height:117px;
+float:right;
+margin-left:2px;
+margin-bottom:2px;
+}
+
+/*ショップ情報 タイトル*/
+
+table.shop_title {
+width:406px;
+height:64px;
+margin:0 0 15px 0;
+padding:0 0 0 0;
+background:url(../../jobinfo/img/shop_title.gif) 0 0 no-repeat;
+}
+table.shop_title td.shoplogo {
+width:115px;
+height:64px;
+text-align:center;
+}
+table.shop_title td.shopname {
+width:247px;
+height:64px;
+}
+table.shop_title td.shopname .category {
+font-size:85%;
+color:#6EBE00;
+}
+table.shop_title td.floor {
+width:42px;
+height:64px;
+}
+
+/*ショップ情報 キャッチ*/
+
+#right_area .jobinfo_catch_area{
+width:406px;
+padding:5px 0 15px 0;
+margin-bottom:20px;
+background:url(../../news/img/search_table_dotline.gif) left bottom repeat-x;
+}
+
+#right_area p.catch_text{
+width:330px;
+color:#ff6400;
+font-weight:bold;
+font-size:108%;
+margin-bottom:0em;
+float:left;
+}
+#right_area p.jobinfo_up_date{
+width:70px;
+margin-bottom:0em;
+float:right;
+text-align:right;
+}
+
+
+/*ショップ情報 テーブル設定*/
+
+table.shopinfo {
+width:100%;
+font-size:93%;
+line-height:138.5%;
+margin:5px 0 0 0;
+}
+table.shopinfo tr.odd {
+vertical-align:top;
+background:#D2D2D2;
+}
+table.shopinfo tr.even {
+vertical-align:top;
+background:#E6E6E6;
+}
+table.shopinfo th {
+width:65px;
+border-right:1px solid #ffffff;
+border-bottom:1px solid #ffffff;
+}
+table.shopinfo td {
+border-bottom:1px solid #ffffff;
+}
+table.shopinfo th, table.shopinfo td {
+padding:3px 5px;
+}
+
+table.contactinfo {
+width:100%;
+font-size:93%;
+line-height:138.5%;
+border:1px solid #D2D2D2;
+margin-top:10px;
+margin-bottom:
+}
+table.contactinfo th, table.contactinfo td {
+padding:10px;
+border-right:1px solid #D2D2D2;
+border-bottom:1px solid #D2D2D2;
+}
+table.contactinfo th {
+width:54px;
+text-align:center;
+}
+
+/*inner_blockにボトムマージンを追加*/
+.jobinfo {
+margin-bottom:50px;
+}

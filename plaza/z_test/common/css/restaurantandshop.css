@@ -1,0 +1,510 @@
+@charset "UTF-8";
+/************** サブナビゲーション **************/
+body#restaurantandshop div#sub_navi_title {
+	width:220px;
+	height:70px;
+	background:url(../../restaurantandshop/img/sub_navi_restaurantandshop.gif) 0 0 no-repeat;
+	line-height:0;
+	text-indent:-9999px;
+	overflow:hiden;
+	margin-bottom:0;
+}
+*:first-child+html body#restaurantandshop div#sub_navi_title {
+margin-bottom:-4px;
+}
+
+body#restaurantandshop div#left_area ul {
+	margin:0;
+	padding:0;
+}
+
+body#restaurantandshop div#left_area li {
+	width:220px;
+	height:38px;
+	line-height:0;
+	font-size:1%;
+	overflow:hiden;
+	text-indent:-9999px;
+}
+
+body#restaurantandshop div#left_area li a {
+	outline:none;
+	display:block;
+	width:220px;
+	height:38px;
+	line-height:normal;
+}
+
+/* sub cont01 */
+body#restaurantandshop div#left_area li.cont_one a {
+	background:url(../../restaurantandshop/img/sub_navi_restaurantandshop.gif) 0 -70px no-repeat;
+}
+body#restaurantandshop div#left_area li.cont_one a:hover {
+	background:url(../../restaurantandshop/img/sub_navi_restaurantandshop.gif) -220px -70px no-repeat;
+}
+body#restaurantandshop div#left_area li.cont_one {
+	background:url(../../restaurantandshop/img/sub_navi_restaurantandshop.gif) -220px -70px no-repeat;
+}
+/* sub cont02 */
+body#restaurantandshop div#left_area li.cont_two a {
+	background:url(../../restaurantandshop/img/sub_navi_restaurantandshop.gif) 0 -108px no-repeat;
+}
+body#restaurantandshop div#left_area li.cont_two a:hover {
+	background:url(../../restaurantandshop/img/sub_navi_restaurantandshop.gif) -220px -108px no-repeat;
+}
+body#restaurantandshop div#left_area li.cont_two {
+	background:url(../../restaurantandshop/img/sub_navi_restaurantandshop.gif) -220px -108px no-repeat;
+}
+/* sub cont03 */
+body#restaurantandshop div#left_area li.cont_three a {
+	background:url(../../restaurantandshop/img/sub_navi_restaurantandshop.gif) 0 -146px no-repeat;
+}
+body#restaurantandshop div#left_area li.cont_three a:hover {
+	background:url(../../restaurantandshop/img/sub_navi_restaurantandshop.gif) -220px -146px no-repeat;
+}
+body#restaurantandshop div#left_area li.cont_three {
+	background:url(../../restaurantandshop/img/sub_navi_restaurantandshop.gif) -220px -146px no-repeat;
+}
+/* sub cont04 */
+body#restaurantandshop div#left_area li.cont_four a {
+	background:url(../../restaurantandshop/img/sub_navi_restaurantandshop.gif) 0 -184px no-repeat;
+}
+body#restaurantandshop div#left_area li.cont_four a:hover {
+	background:url(../../restaurantandshop/img/sub_navi_restaurantandshop.gif) -220px -184px no-repeat;
+}
+body#restaurantandshop div#left_area li.cont_four {
+	background:url(../../restaurantandshop/img/sub_navi_restaurantandshop.gif) -220px -184px no-repeat;
+}
+/* sub cont05 */
+body#restaurantandshop div#left_area li.cont_five a {
+	background:url(../../restaurantandshop/img/sub_navi_restaurantandshop.gif) 0 -222px no-repeat;
+}
+body#restaurantandshop div#left_area li.cont_five a:hover {
+	background:url(../../restaurantandshop/img/sub_navi_restaurantandshop.gif) -220px -222px no-repeat;
+}
+body#restaurantandshop div#left_area li.cont_five {
+	background:url(../../restaurantandshop/img/sub_navi_restaurantandshop.gif) -220px -222px no-repeat;
+}
+/* sub cont06 */
+body#restaurantandshop div#left_area li.cont_six a {
+	background:url(../../restaurantandshop/img/sub_navi_restaurantandshop.gif) 0 -260px no-repeat;
+}
+body#restaurantandshop div#left_area li.cont_six a:hover {
+	background:url(../../restaurantandshop/img/sub_navi_restaurantandshop.gif) -220px -260px no-repeat;
+}
+body#restaurantandshop div#left_area li.cont_six {
+	background:url(../../restaurantandshop/img/sub_navi_restaurantandshop.gif) -220px -260px no-repeat;
+}
+
+
+/*ピックアップナビ*/
+ul.pick_navi {
+
+}
+ul.pick_navi li{
+width:205px;
+height:173px;
+float:left;
+}
+
+ul.pick_navi li.kokouri, ul.pick_navi li.tweet{
+margin-left:22px;
+}
+
+/*検索フォーム*/
+#searchform label {
+display: inline-block;
+padding-left:20px;
+padding-top:10px;
+}
+input#search {
+float:right;margin-top:15px;
+font-size:85%;
+}
+
+/*検索テーブル*/
+
+table.shopsearch {
+width:100%;
+margin-bottom:20px;
+font-size:93%;
+}
+table.shopsearch th.floor {
+width:29px;
+border:1px solid #006428;
+text-align:center;
+}
+table.shopsearch_inner {
+margin-left:21px;
+background:url(../../restaurantandshop/img/search_table_dotline.gif) repeat-x left top;
+width:607px;
+}
+table.shopsearch_inner th{
+width:111px;
+height:51px;
+text-align:center;
+}
+table.shopsearch_inner td.category{
+width:169px;
+color:#6EBE00;
+}
+table.shopsearch_inner tr{
+background:url(../../restaurantandshop/img/search_table_dotline.gif) repeat-x left bottom;
+}
+
+/*ショップ詳細ページ*/
+
+h3.title_shopdetail_h3 {
+width:659px;
+height:27px;
+position:relative;
+margin-bottom:15px;
+}
+span.new_btn {
+display:block;
+width:90px;
+height:27px;
+position:absolute;
+right:92px;
+top:0;
+}
+span.coupon_btn {
+display:block;
+width:90px;
+height:27px;
+position:absolute;
+right:0;
+top:0;
+}
+
+.detail_left{
+width:235px;
+float:left;
+}
+
+.detail_right{
+width:406px;
+float:right;
+}
+
+/*イメージきりかえ*/
+.thmwap {
+margin-top:4px;
+}
+ul.thumbnail {
+margin:0;
+padding:0;
+}
+ul.thumbnail li{
+float:right;
+width:44px;
+height:44px;
+margin-left:3px;
+}
+ul.thumbnail li a{
+display:block;
+width:44px;
+height:44px;
+background:url(../../restaurantandshop/img/thumb_bg_off.gif) no-repeat left bottom;
+}
+ul.thumbnail li a:hover{
+background:url(../../restaurantandshop/img/thumb_bg_on.gif) no-repeat left bottom;
+}
+ul.thumbnail li a img{
+margin:3px;
+}
+
+/*つぶやきエリア*/
+.shop_tweet {
+width:235px;
+padding-top:12px;
+margin-top:10px;
+background:url(../../restaurantandshop/img/shop_tweet_bg.gif) no-repeat;
+}
+h4.shop_tweet_title{
+width:208px;
+height:20px;
+position:relative;
+margin-left:12px;
+}
+span.tweet_btn {
+display:block;
+width:80px;
+height:20px;
+position:absolute;
+right:0;
+top:0;
+}
+.tweet_txt{
+width:208px;
+margin:12px;
+}
+.tweet_area_bottom{
+width:235px;
+height:7px;
+background:url(../../restaurantandshop/img/tweet_area_bottom.gif) no-repeat;
+line-height:0;
+font-size:1%;
+}
+
+/*リンクナビ*/
+.link_navi{
+width:235px;
+height:51px;
+margin-top:20px;
+}
+.link_navi_s{
+width:235px;
+height:51px;
+margin-top:10px;
+}
+
+.detail_gnavi, detail_hp, detail_twitter{
+width:113px;
+height:51px;
+}
+.detail_gnavi{
+float:left;
+}
+.detail_hp{
+float:right;
+}
+.detail_twitter{
+float:left;
+}
+
+
+/*右エリア　ショップデータ*/
+
+.index_back {
+background:url(../../restaurantandshop/img/back_ya.gif) no-repeat;
+text-indent:10px;
+font-size:77%;
+margin:0 0 10px;
+}
+
+.shop_name_area {
+width:406px;
+height:62px;
+background:url(../../restaurantandshop/img/shop_name_area.gif);
+}
+h4.shopname {
+float:left;
+width:270px;
+padding:18px 0 0 10px;
+font-size:116%;
+line-height:182%;
+font-weight:bold;
+}
+p.floor {
+float:right;
+width:115px;
+padding:25px 10px 0 0;
+font-size:93%;
+line-height:320%;
+font-weight:bold;
+text-align:right;
+}
+
+.shop_cat_area{
+width:406px;
+border-bottom:1px solid #E6E6E6;
+}
+#right_area p.shop_cat{
+float:left;
+padding:3px 3px 3px 3px;
+margin-bottom:0em;
+}
+#right_area p.tel{
+float:right;
+padding:3px 3px 3px 3px;
+margin-bottom:0em;
+}
+
+.shop_txt_area {
+width:406px;
+margin-top:20px;
+}
+
+p.shop_txt_catch{
+color:#006428;
+font-weight:bold;
+font-size:108%;
+}
+
+/*1pxのドット罫線100％ 2pxあき*/
+.hr_dotline2 {
+width:100%;
+height:1px;
+background:url(../../restaurantandshop/img/search_table_dotline.gif);
+line-height:0;
+font-size:1%;
+}
+
+table#shopdata {
+border-collapse:collapse;
+border-top:1px solid #E6E6E6;
+border-bottom:1px solid #E6E6E6;
+font-size:93%;
+margin-bottom:15px;
+margin-top:20px;
+}
+
+table#shopdata tr {
+vertical-align:top;
+}
+table#shopdata th{
+border-right:1px solid #E6E6E6;
+border-bottom:1px solid #E6E6E6;
+white-space:nowrap;
+width:107px;
+padding:5px 5px 5px 0;
+}
+table#shopdata td{
+border-bottom:1px solid #E6E6E6;
+padding:5px 0 5px 5px;
+line-height:123.1%;
+}
+
+/*最新情報エリア*/
+.news_txt_area {
+width:406px;
+}
+
+.news_txt_area a{
+color:#5488D7;
+}
+
+#right_area .news_txt_area p{
+padding-left:3px;
+line-height:123.1%;
+margin-bottom:1.2em;
+}
+
+#right_area p.news_txt_catch{
+color:#FF6400;
+font-weight:bold;
+font-size:108%;
+margin-bottom:0em;
+padding:20px 0 20px 3px;
+}
+
+.detail_more {
+width:112px;
+height:21px;
+margin-top:40px;
+}
+
+.see_more {
+width:235px;
+height:20px;
+margin-top:3px;
+text-align:right;
+}
+
+
+/*クーポンエリア*/
+h3.title_coupon_h3 {
+width:659px;
+height:40px;
+position:relative;
+margin-bottom:15px;
+}
+span.print_btn {
+display:block;
+width:102px;
+height:40px;
+position:absolute;
+right:0;
+top:0;
+}
+
+#coupon_area {
+width:549px;
+height:252px;
+position:relative;
+margin:0 auto 15px auto;
+}
+
+.coupon_image {
+width:549px;
+height:252px;
+position:absolute;
+left:0;
+top:0;
+}
+
+.coupon_txt{
+position:absolute;
+width:289px;
+height:181px;
+right:45px;
+top:35px;
+z-index:1;
+}
+.coupon_txt span{
+display:block;
+}
+
+.coupon_txt span.coupon_shopname, .coupon_txt span.coupon_title{
+font-weight:bold;
+font-size:108%;
+line-height:146.5%;
+margin-bottom:15px;
+}
+
+.coupon_txt span.coupon_description{
+font-weight:bold;
+font-size:100%;
+}
+
+.coupon_txt span.coupon_shopcat{
+font-size:85%;
+line-height:108%;
+margin-bottom:15px;
+}
+
+.coupon_left {
+width:209px;
+float:left;
+font-size:77%;
+line-height:123.1%;
+}
+.coupon_right {
+font-size:85%;
+line-height:123.1%;
+width:80px;
+float:right;
+}
+.coupon_limit{
+color:#ff0000;
+}
+
+/*ショップニュース詳細の追加レイアウト*/
+
+table.news_layout01 {
+width:100%;
+border-collapse:collapse;
+border-top:1px solid #E6E6E6;
+border-bottom:1px solid #E6E6E6;
+font-size:93%;
+margin:0;
+}
+
+table.news_layout01 th {
+width:80px;
+font-weight:normal;
+background-color:#CCCCCC;
+padding:5px 7px;
+vertical-align:top;
+border-right:1px solid #FFFFFF;
+border-bottom:1px solid #FFFFFF;
+}
+
+table.news_layout01 td {
+font-weight:normal;
+background-color:#ECECEC;
+padding:5px 10px;
+vertical-align:top;
+border-bottom:1px solid #FFFFFF;
+}
